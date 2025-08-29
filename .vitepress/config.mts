@@ -6,8 +6,9 @@ export default defineConfig({
   head: [['link', { rel: 'stylesheet', href: '/custom.css' }]],
   themeConfig: {
     nav: [
+      { text: '首页', link: '/' },
       { text: '指南', link: '/guide/introduction' },
-      { text: '参考', link: '/reference/api-reference' }
+      { text: '演示', link: 'https://demo.foxel.cc' },
     ],
 
     sidebar: [
@@ -18,6 +19,15 @@ export default defineConfig({
           { text: '快速上手', link: '/guide/getting-started' }
         ]
       },
+      {
+        text: '存储',
+        items: [
+          { text: '本地存储', link: '/guide/storage/local' },
+          { text: 'WebDAV', link: '/guide/storage/webdav' },
+          { text: 'OneDrive', link: '/guide/storage/onedrive' },
+          { text: 'S3', link: '/guide/storage/s3' }
+        ]
+      }
     ],
 
     socialLinks: [

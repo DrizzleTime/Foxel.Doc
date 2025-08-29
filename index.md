@@ -13,8 +13,8 @@ hero:
       text: 快速上手
       link: /guide/getting-started
     - theme: alt
-      text: 演示地址[admin/admin]
-      link: https://demo.foxel.cc
+      text: Github
+      link: https://github.com/DrizzleTime/Foxel
 
 features:
   - title: 🗂️统一文件管理
