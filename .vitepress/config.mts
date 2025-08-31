@@ -25,7 +25,8 @@ export default defineConfig({
           { text: '本地存储', link: '/guide/storage/local' },
           { text: 'WebDAV', link: '/guide/storage/webdav' },
           { text: 'OneDrive', link: '/guide/storage/onedrive' },
-          { text: 'S3', link: '/guide/storage/s3' }
+          { text: 'S3', link: '/guide/storage/s3' },
+          { text: 'Telegram', link: '/guide/storage/telegram' }
         ]
       }
     ],
